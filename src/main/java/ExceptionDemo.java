@@ -14,7 +14,7 @@
 
 import java.util.Scanner;
 
-public class ExceptionDemo {
+public class  ExceptionDemo {
 
     // 模拟账户余额
     static double accountBalance = 1000.0;
