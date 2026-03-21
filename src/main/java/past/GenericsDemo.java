@@ -1,5 +1,4 @@
-import java.util.HashMap;
-import java.util.Map;
+package past;
 
 public class GenericsDemo {
     public static void main(String[] args) {

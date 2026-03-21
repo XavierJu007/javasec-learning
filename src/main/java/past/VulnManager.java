@@ -1,3 +1,5 @@
+package past;
+
 import java.util.*;
 
 public class VulnManager {
@@ -12,9 +14,7 @@ public class VulnManager {
         // cveList.add(12345);
 
         System.out.println("--- 当前监控的 CVE 列表 ---");
-        for (String cve : cveList) {
-            System.out.println("监控中: " + cve);
-        }
+        cveList.forEach(cve -> System.out.println("监控中： " + cve));
 
         // 2. Map 的实战：建立 漏洞名 -> CVE编号 的映射
         // <K, V> 泛型：Key 是 String，Value 也是 String

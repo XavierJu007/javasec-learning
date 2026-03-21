@@ -1,3 +1,5 @@
+package past;
+
 import java.util.*;
 
 public class LinkedListDemo {
